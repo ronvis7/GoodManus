@@ -1,0 +1,75 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Next.js
+.next/
+out/
+dist/
+
+# Build outputs
+build/
+*.egg-info/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+api/.env
+sandbox/.env
+ui/.env*
+!ui/.env.example
+
+# Secrets / config files that may contain credentials
+api_key*.txt
+api/config.yaml
+*.pem
+*.key
+*.crt
+
+# Local tool / IDE configs
+.claude/
+.cursor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Nginx SSL (用户自行放置)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# Misc
+.cache/
+temp/
+tmp/
