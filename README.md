@@ -6,7 +6,7 @@ GoodManus 是一个通用的 AI Agent 系统，支持完全私有化部署，使
 ## 项目结构
 
 ```
-mooc-manus/
+good-manus/
 ├── api/              # 后端 API 服务（FastAPI）
 ├── ui/               # 前端服务（Next.js）
 ├── sandbox/          # 沙箱服务（Ubuntu + Chrome + VNC）
